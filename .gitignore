@@ -135,3 +135,5 @@ test.js
 Tests
 *.env
 playground
+.vercel
+.env*.local
