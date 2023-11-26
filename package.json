@@ -5,7 +5,7 @@
   "private": true,
   "main": "app.js",
   "scripts": { 
-    "predeploy": "npm run devstart",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "node app.js",
     "devstart": "env-cmd -f ./configs/dev.env nodemon app.js"
